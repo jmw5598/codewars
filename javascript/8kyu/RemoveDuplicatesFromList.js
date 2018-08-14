@@ -7,7 +7,7 @@
 
 // Using filter
 function distinct(a) {
-  return a.filter((e, i, a) => index === a.indexOf(e));
+  return a.filter((e, i, a) => i === a.indexOf(e));
 }
 
 // Using the spread operator
