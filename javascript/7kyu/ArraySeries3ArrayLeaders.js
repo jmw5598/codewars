@@ -1,4 +1,6 @@
 /*
+  ARRAY LEADERS (ARRAY SERIES 3)
+  
   Definition
     An element is leader if it is greater than The Sum all the elements to its
     right side.
