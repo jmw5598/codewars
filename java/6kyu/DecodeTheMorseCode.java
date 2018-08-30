@@ -60,14 +60,11 @@ public class MorseCodeDecoder {
     public static String decode(String morseCode) {
 
         StringBuilder sb = new StringBuilder();
-        String[] words = morseCode.trim().split("   ");
 
-        for(String w : words) {
-          String[] chars = w.split(" ");
-
-          for(String c : chars) {
+        for(String w : morseCode.trim().split("   ")) {
+          for(String c : w.split(" ")) {
             sb.append(MorseCode.get(c));
-
+          }
           sb.append(" ");
         }
 
