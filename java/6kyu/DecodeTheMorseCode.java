@@ -54,7 +54,7 @@ public class MorseCodeDecoder {
 }
 
 // Imperative : Loops
-import java.util.stream.Stream;
+import java.lang.StringBuilder;
 
 public class MorseCodeDecoder {
     public static String decode(String morseCode) {
